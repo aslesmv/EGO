@@ -1613,7 +1613,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &308173037
 Transform:
   m_ObjectHideFlags: 0
@@ -1685,6 +1685,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2115546005327575091, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 153640831994678923, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1692,6 +1696,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: m_Name
       value: Bedside table (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1166186050696045511, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2540366686937543481, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2662,6 +2674,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: m_Name
       value: Screen
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6609493762104327279, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: m_LocalScale.x
@@ -5114,7 +5130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &740331122
 Transform:
   m_ObjectHideFlags: 0
@@ -6152,6 +6168,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: m_Name
       value: Bedside table (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2540366686937543481, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8739,6 +8759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bedside table
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3707628595180354442, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -9054,6 +9078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bedside table (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3707628595180354442, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -9257,6 +9285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bedside table (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3707628595180354442, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -9310,7 +9342,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1578251690
 Transform:
   m_ObjectHideFlags: 0
@@ -10869,6 +10901,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8995411351048056624, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
     - target: {fileID: -8679921383154817045, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
       propertyPath: m_LocalScale.x
       value: -1.18682
@@ -10921,10 +10957,94 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
+    - target: {fileID: -7724963816475527889, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: -7681811761679675667, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c4d7440c6a7cb44f993e86259501fa7, type: 2}
+    - target: {fileID: -7276722066347283931, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: -7052551476253634107, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: -6560957776512289073, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: -5696187199663878090, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: -5244210392681606238, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c4d7440c6a7cb44f993e86259501fa7, type: 2}
+    - target: {fileID: -3988220975054811166, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: -2459026961348620415, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c4d7440c6a7cb44f993e86259501fa7, type: 2}
+    - target: {fileID: -1552045196708904151, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: -1175949101750989936, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c4d7440c6a7cb44f993e86259501fa7, type: 2}
+    - target: {fileID: -234971366081672882, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
     - target: {fileID: 919132149155446097, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
       propertyPath: m_Name
       value: Small Medical Table (FBX) 1K
       objectReference: {fileID: 0}
+    - target: {fileID: 1239732520978596954, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: 1476512667856515602, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: 4704293558250847147, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c4d7440c6a7cb44f993e86259501fa7, type: 2}
+    - target: {fileID: 6538156536459693591, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c4d7440c6a7cb44f993e86259501fa7, type: 2}
+    - target: {fileID: 7083660358521900276, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: 7548738332838795723, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c4d7440c6a7cb44f993e86259501fa7, type: 2}
+    - target: {fileID: 7610271553914964355, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c4d7440c6a7cb44f993e86259501fa7, type: 2}
+    - target: {fileID: 7872785063663495200, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
+    - target: {fileID: 8434086252094574190, guid: e8c2fadd989d5d346bc38ed24bf9b9bc, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 281c43c0256629f47998fffb38adbbf8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12003,6 +12123,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: m_Name
       value: Bedside table (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3707628595180354442, guid: ad4e66be1e777fd43bd42dd1a3efb680, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
