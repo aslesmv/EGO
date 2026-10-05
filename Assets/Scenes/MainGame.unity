@@ -4072,6 +4072,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 518566314}
   m_LocalEulerAnglesHint: {x: 0, y: -16.845, z: 0}
+--- !u!4 &617854010 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 1805570237}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &676986491
 GameObject:
   m_ObjectHideFlags: 0
@@ -4659,6 +4664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 781077405}
   - component: {fileID: 781077404}
+  - component: {fileID: 781077406}
   m_Layer: 0
   m_Name: RestrictedBoundary
   m_TagString: Untagged
@@ -4702,6 +4708,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &781077406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781077403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf86776e5803ac346a8d92d93cac6e6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  dialogueCanvas: {fileID: 608708483}
+  xrOrigin: {fileID: 617854010}
+  safeResetPoint: {fileID: 0}
 --- !u!1001 &840097294
 PrefabInstance:
   m_ObjectHideFlags: 0
