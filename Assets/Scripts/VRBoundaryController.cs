@@ -26,10 +26,16 @@ public class VRBoundaryController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") || other.GetComponentInChildren<Camera>() != null)
+        if (other.CompareTag("Player") || other.GetComponentInChildren<Camera>() != null || other.GetComponentInParent<CharacterController>() != null )
         {
             playerInside = false;
             dialogueCanvas.SetActive(false);
+        }
+
+        if (xrOrigin)
+        {
+            playerInside = true;
+            TriggerRestriction();
         }
     }
 
