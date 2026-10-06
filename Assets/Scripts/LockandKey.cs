@@ -1,16 +1,39 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LockandKey : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header("Settings")]
+    [Tooltip("The tag assigned to key object ('key')")]
+    public GameObject specificKeyObject;
+
+    [Tooltip("The door asset that will be off when unlocked")]
+    public GameObject doorAsset;
+
+    [Header("Events")]
+    public UnityEvent OnUnlocked;
+
+    // This triggers key when entering door area
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject == specificKeyObject)
+        {
+            UnlockDoor();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void UnlockDoor()
     {
-        
+        if (doorAsset != null)
+        {
+            doorAsset.SetActive(false);
+        }
+
+        if (specificKeyObject != null)
+        {
+            Destroy(specificKeyObject);
+        }
+
+        OnUnlocked?.Invoke();
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Interactable
   - Grabbable
+  - Key
   layers:
   - Default
   - TransparentFX
