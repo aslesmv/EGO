@@ -394,7 +394,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1937,7 +1937,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5644,7 +5644,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &738650625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7362,10 +7362,34 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7445601258374402589, guid: e1e19113c2a8338459da913999aac6b1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e916a6949e3d79745bd441380cb34c86, type: 2}
+    - target: {fileID: -6319239227303391928, guid: e1e19113c2a8338459da913999aac6b1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e916a6949e3d79745bd441380cb34c86, type: 2}
+    - target: {fileID: -4958494014312907666, guid: e1e19113c2a8338459da913999aac6b1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e916a6949e3d79745bd441380cb34c86, type: 2}
+    - target: {fileID: -2695373176647031293, guid: e1e19113c2a8338459da913999aac6b1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e916a6949e3d79745bd441380cb34c86, type: 2}
+    - target: {fileID: -305091885687274788, guid: e1e19113c2a8338459da913999aac6b1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e916a6949e3d79745bd441380cb34c86, type: 2}
     - target: {fileID: 919132149155446097, guid: e1e19113c2a8338459da913999aac6b1, type: 3}
       propertyPath: m_Name
       value: hoaspitalDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 2492018926904381103, guid: e1e19113c2a8338459da913999aac6b1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e916a6949e3d79745bd441380cb34c86, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9679,7 +9703,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.86816, y: 3.21, z: 1.19377}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.16211401, y: 0.16211401, z: 0.16211401}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -11568,7 +11592,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
